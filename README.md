@@ -35,20 +35,20 @@ Train_data : Frist take orders_products_train and merge with orders files on lef
 <br/> 1.Add none product as reordered ==1 with respect to order_id wherever if the sum of the reordered products of that particular order_id ==0. So that we can also predict None if the user doesn't want to order
 <br/> 2.User_product_ratio
 <br/> 3.Day of Week reordered_ratio
-<br/> 4.Hour_of_day Reordered Raio
+<br/> 4.Hour_of_day Reordered Ratio
 <br/> 5.Days_since_prior_order Reordered ratio
 <br/> 6.Product hour of day reordered ratio
 <br/> 7.Product_dayofweek Ratio
 <br/> 8.User_dow reordered ratio
 <br/> 9.User hour reordered_ratio
-<br/> 10.Days since prior order For a product
+<br/> 10.Days since prior order for a product
 <br/> 11.How many times product reordered by user
 <br/> 12. Word2Vectors of products_aisles_departemet of each_product and performed Pca
 
 <br/> After performing this feature engineering stored all these in pkl files and merged with Trian and test_data in 5th step
 
 ### 7.Modelling:
-<br/> After trying with logistic regression,svm,random_forest,decison_tree i found out Lightgbm performs fast and better so i have done ranom search hyperparameter to get optimal score
+<br/> After trying with logistic regression,svm,random_forest,decison_tree i found out Lightgbm performs fast and better so i have done random search hyperparameter to get optimal score
 This is shown in modelling ipynb. Done in colab with gpu of 25 gb ram
 
 ### References:
