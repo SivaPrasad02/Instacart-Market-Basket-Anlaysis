@@ -43,7 +43,7 @@ Train_data : Frist take orders_products_train and merge with orders files on lef
 <br/> 9.User hour reordered_ratio
 <br/> 10.Days since prior order For a product
 <br/> 11.How many times product reordered by user
-<br/> 12. Word2Vectars of products_aisles_departemet of each_product and performed Pca
+<br/> 12. Word2Vectors of products_aisles_departemet of each_product and performed Pca
 
 <br/> After performing this feature engineering stored all these in pkl files and merged with Trian and test_data in 5th step
 
